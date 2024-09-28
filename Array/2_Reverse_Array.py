@@ -23,5 +23,6 @@ def main():
     for i in range(len(rev_arr)):
           print(rev_arr[i],end=" ")
     
+    
 if __name__=="__main__":
     main()

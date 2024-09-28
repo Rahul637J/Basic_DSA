@@ -18,9 +18,11 @@ def smaller_items(list1):
 
           return min(list1)
 
+
 def main():
     list1=[1,2,3,4,5,6]
     print(smaller_items(list1))
+    
     
 if __name__=="__main__":
     main()

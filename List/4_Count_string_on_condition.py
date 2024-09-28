@@ -1,9 +1,11 @@
 '''
+
 @Author: Rahul 
 @Date: 2024-08-05
 @Last Modified by: Rahul 
 @Last Modified time: 2024-08-05
 @Title: Python program to count the number of strings with specific conditions
+
 '''
 
 def countStringItems(list1):
@@ -21,6 +23,7 @@ def countStringItems(list1):
         if len(item) >= 2 and item[0] == item[-1]:
             count += 1
     return count
+
 
 def main():
     list1 = ['abc', 'xyz', 'aba', '1221']
